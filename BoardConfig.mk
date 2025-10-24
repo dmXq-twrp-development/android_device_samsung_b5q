@@ -14,10 +14,5 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/recovery_dtbo
 # Recovery
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 109576192
 
-# Statusbar icons flags
-TW_CUSTOM_CPU_POS := "50"
-TW_CUSTOM_CLOCK_POS := "340" 
-TW_CUSTOM_BATTERY_POS := "600"
-
 # Inherit from common tree
 include device/samsung/sm8550-common/BoardConfigCommon.mk
